@@ -13,7 +13,7 @@ from xgboost import XGBRegressor
 
 
 # Load the Excel file (make sure it's .xlsx and not open in Excel)
-df = pd.read_excel(r"C:\Users\PMYLS\Downloads\Concrete_Data.xlsx", engine='openpyxl')
+df = pd.read_excel("Concrete_Data.xlsx", engine='openpyxl')
 
 # Step 1: Print actual column names
 print("Original Columns:")
